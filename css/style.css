@@ -1,0 +1,176 @@
+/* Basic Setup */
+
+/* MY COLOR::
+    pink - #f4ccc3 
+    cool grey - #f4f4f4
+    dark grey - #252525
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #f4f4f4;
+	font-family: 'Roboto', sans-serif;
+	color: #545454;
+}
+
+h1 {
+	margin: 0;
+	font-size: 40px;
+	font-weight: 300;
+    color: #ffffff;
+}
+
+h2 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 35px;
+    color: #252525;
+	padding: 0px 0px 10px 0px;
+}
+
+h3 {
+	margin: 0;
+	font-weight: 600;
+	font-size: 18px;
+	color: #252525;
+	padding: 0px 0px 10px 0px;
+}
+
+ul {
+	margin-top: 0px;
+}
+
+p {
+	margin-top: 0px;
+	font-size: 15px;
+}
+
+
+a {
+	color: #2C2C2C;
+}
+
+.my_photo {
+	width: 300px;
+	float: right;
+	margin-left: 30px;
+}
+
+.logo {
+    opacity: 0.5;
+    width: 20px;
+
+}
+
+.contact {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contact:hover .logo {
+    opacity: 1;
+}
+
+/* WRAPPER */
+
+#wrapper {
+	overflow: hidden;
+	width: 950px;
+	margin: 50px auto;
+	background: #f4f4f4;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,.2);
+}
+
+/* HEADER */
+
+#header {
+	overflow: hidden;
+	height: 100px;
+	background: #252525;
+}
+
+/* Name */
+
+#name
+{
+	float: left;
+	padding: 30px 0px 0px 50px; /* t-r-b-l */
+
+
+}
+
+/* Menu */
+
+#menu
+{
+	float: right;
+	width: 400px;
+	padding: 50px 50px 0px 0px;
+}
+
+#menu ul
+{
+	float: right;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li
+{
+	float: left;
+}
+
+#menu a
+{
+	display: block;
+	margin-left: 1px;
+	padding: 7px 0px 7px 30px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+/* PAGE */
+
+#page {
+	overflow: hidden;
+	width: 850px;
+	margin: 0px 50px;
+	padding: 20px 0px;
+}
+
+#content{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/* Footer */
+#footer {
+	overflow: hidden;
+	margin: 0px 50px;
+	padding: 10px 0px 0px 0px;
+}
+
+#footer ul {
+	display: flex;
+    /* margin-right: 20px; */
+    justify-content: center;
+    align-items: center;
+}
+#footer p {
+    padding-left: 30px;
+    padding-right: 30px;
+
+	text-align: center;
+    justify-content: center;
+	color: #252525;
+	font-size: 12px;
+}
+
+
